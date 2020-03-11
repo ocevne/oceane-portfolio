@@ -2,23 +2,22 @@
 TYPOGRAPHY
 ===============================*/
 html {
+    background-color: ;
     color: #413f3e;
-    font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif;
 }
 
 h1 {
-    color: white;
-    font-family: 'Amatic SC', cursive,'Helvetica Neue', Arial;
+    color: #4b110e;
+    font-family: 'Playfair Display', cursive,'Helvetica Neue', Arial;
 }
 
 body {
     margin: 0;
 }
-
-a:visited {
-    color: white;
-}
-
+ h1 a:hover, h1 a:visited {
+     color: #413f3e;
+ }
 a:hover {
     text-decoration: underline;
 }
@@ -39,7 +38,6 @@ HEADER STYLE
 ===============================*/
 
 header {
-    background-color: #ffa419;
     padding: 1rem;
 }
 
@@ -50,7 +48,7 @@ header li {
 }
 
 nav a {
-    color: white;
+    color: #333;
     font-size: 14px;
     text-decoration: none;
 }
@@ -77,34 +75,31 @@ nav ul {
 /*=============================
 MAIN
 ===============================*/
-.hero-image {
-    max-height: 650px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-.about-me {
-    text-align: center;
-    margin: 3rem auto 3rem;
-    max-width: 35rem;
-}
 
-.about-me p, .about-me ul{
-    font-size: 15px;
-    list-style-type: none;
+.about-me, .featured-h2 {
+    text-align: left;
+    max-width: 35rem;
+    margin-left: 5rem;
+}
+.about-me h2 {
+    font-size: 3rem;
+}
+.about-me p {
+    font-size: 1.5rem;
     padding-inline-start: 0;
+    margin-bottom: 5rem;
 }
 
 /*=============================
 FOOTER
 ===============================*/
 footer {
-    background-color: #ffa419;
+    border-top: .2px solid #413f3e;
     margin-top: 3rem;
     padding: 1rem;
 }
 footer p {
-    color: white;
+    color: #413f3e;
     font-size: 14px;
 }
 
@@ -201,12 +196,19 @@ PORTFOLIO
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
-
+.read-more svg {
+    vertical-align: baseline;
+    margin-left: 5px;
+}
+.read-more:hover, .read-more:focus {
+    color: red;
+}
 .card {
+    background-color: white;
     color: black;
     max-width: 400px;
     padding-top: 1rem;
-    box-shadow: grey 1px 5px 6px;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .card img {
