@@ -8,15 +8,18 @@ html {
 }
 
 h1 {
-    color: #4b110e;
+    background-color: steelblue;
     font-family: 'Playfair Display', cursive,'Helvetica Neue', Arial;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 8rem;
 }
 
 body {
     margin: 0;
 }
  h1 a:hover, h1 a:visited {
-     color: #413f3e;
+     color: white;
  }
 a:hover {
     text-decoration: underline;
@@ -208,7 +211,7 @@ PORTFOLIO
     color: black;
     max-width: 400px;
     padding-top: 1rem;
-    box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #9e9e9a;
 }
 
 .card img {
@@ -218,6 +221,7 @@ PORTFOLIO
 
 .card a {
     text-decoration: none;
+    color: steelblue;
 }
 
 .card h3, .card p {
@@ -241,6 +245,9 @@ PORTFOLIO
 
 .card a:active {
     color: #ffa419;
+}
+.card a:visited {
+    color: steelblue;
 }
 
 @media (min-width: 450px) {
