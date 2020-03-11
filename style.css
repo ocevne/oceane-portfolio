@@ -268,12 +268,18 @@ PORTFOLIO
 Transit APP
 ===============================*/
 
-.project-image {
-    max-height: 300px;
+.project-image, .project-image2 {
+    max-height: 1000px;
+    max-width: 500px;
 }
 
 .project-details {
-    text-align: center;
+    line-height: 1.5;
+    text-align: left;
     margin: 3rem auto 3rem;
     max-width: 35rem;
+}
+
+.project-image2 {
+    border-bottom: 1px solid gray;
 }
